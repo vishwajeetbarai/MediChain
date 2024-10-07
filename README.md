@@ -11,3 +11,4 @@ Technology Stack:
 - Development Environment: Node.js
 - Testing Framework: Truffle (for testing Solidity contracts)
 - Version Control: Git
+- CSS framework: Tailwind CSS
