@@ -13,6 +13,8 @@ Furthermore, by integrating the InterPlanetary File System (IPFS), diagnostic ce
 - Version Control: Git
 - CSS framework: Tailwind CSS<br/>
 
+**For Full Working Project**<br/>
+**Contact: Mail** vishwajeetb17@gmail.com 
 
 **Output**<br/>
 
