@@ -1,0 +1,71 @@
+*Requirements*
+
+1. Install NodeJs - Node.js is essential for running JavaScript code outside the browser and is needed for backend development.
+
+Reference - https://nodejs.org/en/download/package-manager
+Steps:
+    (a) Visit the Node.js download page and choose the appropriate version for your operating system.  
+    (b) After installation, verify it by running the following command in a terminal:
+      node -v
+      npm -v
+
+2. Install Ganache - Ganache is a personal blockchain used to run Ethereum tests and deploy smart contracts.
+
+Reference: https://archive.trufflesuite.com/ganache/
+Steps:
+    (a) Download the Ganache application for your operating system.
+    (b) Install and launch it.
+
+3. Download IPFS (kubo) - IPFS (InterPlanetary File System) is required for decentralized file storage.
+
+Reference: https://dist.ipfs.tech/#go-ipfs
+Steps:
+    (a) Download the go-ipfs version suitable for your OS.
+    (b) Follow the installation guide provided on the IPFS website.
+
+4. Add Metamask Extension in Browser - Metamask is a crypto wallet and gateway to Ethereum blockchain apps.
+
+Reference: https://chromewebstore.google.com/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn?hl=en-US
+Steps:
+    (a) Open the link above and add the Metamask extension to your browser.
+    (b) Set up your Metamask wallet (create or import an existing one).
+
+5. Install Project Dependencies - After setting up the project environment, you need to install the required Node.js dependencies.
+
+Steps:
+    (a) Open cmd (Command Prompt) in the project directory where the code is located.
+    (b) If you have cloned the project, navigate to the directory:
+      cd path/to/your/MediChain
+    (c) Install the necessary dependencies by running the following command:
+      npm install --force
+
+6. Install Truffle Globally - Truffle is a development environment and testing framework for Ethereum smart contracts.
+
+Steps:
+    (a) Open cmd or terminal as Administrator.
+    (b) Install Truffle globally using the following command:
+      npm install -g truffle
+
+7. Setup Ganache Workspace - Ganache will be used to deploy and test smart contracts locally.
+
+Steps:
+    (a) Open Ganache.
+    (b) Click on "New Workspace".
+    (c) Select "Add Project".
+    (d) Navigate to your project directory and select the truffle-config.js file.
+    (e) Save the workspace.
+
+8. Compile and Migrate Contracts - Compile the smart contracts in your project and deploy them on your local blockchain (Ganache).
+
+Steps:
+    (a) Open a terminal and navigate to your project directory.
+    (b) Compile and migrate the contracts using Truffle:
+      truffle migrate
+
+9. Run the Server - Once all contracts have been migrated, you can run the Node.js server to start the project.
+
+Steps:
+    (a) In the project directory, run the following command:
+      npm start
+
+This will start the server and open the MediChain application in your browser.
